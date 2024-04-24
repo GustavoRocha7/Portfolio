@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfólio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/banner.js"></script>
+</head>
+<body onload="slide1();">
+	<div id="topo"></div>
+	<header>
+		<nav>
+			<a href="#topo" class="scrollSuave">
+				<img src="img/html_css.png" alt="HTML5 e CSS3" 
+				     title="HTML5 e CSS3" class="logo">
+			</a>
+			<ul>
+				<li><a href="#servicos">Serviços</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="redes">
+		<div class="rede" id="facebook">
+			<a href="#" target="_blank">
+				<img src="img/facebook.png" alt="Facebook" 
+				     title="Facebook" class="icone">
+			</a>
+		</div>
+
+		<div class="rede" id="twitter">
+			<a href="#" target="_blank">
+				<img src="img/twitter.png" alt="Twitter" 
+				     title="Twitter" class="icone">
+			</a>
+		</div>
+
+		<div class="rede" id="instagram">
+			<a href="#" target="_blank">
+				<img src="img/instagram.png" alt="Instagram" 
+				     title="Instagram" class="icone">
+			</a>
+		</div>
+
+		<div class="rede" id="youtube">
+			<a href="#" target="_blank">
+				<img src="img/youtube.png" alt="Youtube" 
+				     title="Youtube" class="icone">
+			</a>
+		</div>
+	</div>
+
+	<div class="banner">
+		<img id="meu-banner" alt="Banner" title="Banner">
+		<div>
+			<h1 class="titulo-banner">
+				Desenvolvimento de sistemas
+			</h1>
+			<p class="slogan-banner">
+				Sistemas personalizados em diversas linguagens de programação
+			</p>
+			<p class="btn-banner">
+				<a href="#contato">Faça um orçamento</a>
+			</p>
+		</div>
+	</div>
+
+
+	<p>&nbsp;</p>
+
+	<main class="container">
+		<div id="servicos"></div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<h1 class="titulo">Serviços</h1>
+		<p>&nbsp;</p>
+
+		<div class="row">
+			<div class="servico">
+				<img src="img/servicos1.jpg" 
+				     alt="Desenvolvimento de Sistemas"
+				     title="Desenvolvimento de Sistemas">
+				<h2 class="titulo-servico">
+					Desenvolvimento <br> de Sistemas
+				</h2>
+				<p class="texto-servico">
+					Temos a maior equipe de desenvolvedores certificados do mercado, traga sua necessidade e escolha a melhor opção custo X benefício
+				</p>
+				<p>
+					<a href="#contato" class="btn-servico scrollSuave" >
+						Faça um orçamento
+					</a>
+				</p>
+			</div>
+
+
+			<div class="servico">
+				<img src="img/servicos2.jpg" 
+				     alt="Criação de Websites"
+				     title="Criação de Websites">
+				<h2 class="titulo-servico">
+					Criação <br> de Websites
+				</h2>
+				<p class="texto-servico">
+					Sua empresa precisa estar nas mídias sociais o quanto antes, desenvolvemos seu site para todos os periféricos em tempo recorde!
+				</p>
+				<p>
+					<a href="#contato" class="btn-servico scrollSuave">
+						Faça um orçamento
+					</a>
+				</p>
+			</div>
+
+
+			<div class="servico">
+				<img src="img/servicos3.jpg" 
+				     alt="Criação de Apps"
+				     title="Criação de Apps">
+				<h2 class="titulo-servico">
+					Criação <br> de Apps
+				</h2>
+				<p class="texto-servico">
+					Para maior comodidade, o acesso à informação precisa estar em suas mãos, fazemos o seu App em 48 horas, traga seu projeto hoje
+				</p>
+				<p>
+					<a href="#contato" class="btn-servico scrollSuave">
+						Faça um orçamento
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="limpa"></div>
+
+
+		<div class="limpa"></div>
+		<div id="contato"></div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<hr>
+		<h1 class="titulo">Contato</h1>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<form name="form1" id="form1" method="post">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome">
+
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" id="email">
+
+			<label for="fone">Fone:</label>
+			<input type="text" name="fone" id="fone">
+
+			<label for="comentario">Comentário:</label>
+			<textarea name="comentario" id="comentario"
+			          rows="15"></textarea>
+
+			<input type="submit" name="enviar" id="enviar"
+			       value="Enviar">
+		</form>
+
+	</main>
+
+
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+
+	<footer>
+		<div class="whats">
+			<a href="#" target="_blank">
+				<img src="img/whatsapp.png" alt="Whatsapp" title="Whatsapp">
+			</a>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="contato">
+					<a href="#topo">
+						<img src="img/html_css.png" alt="HTML5 e CSS3"
+						     title="HTML5 e CSS3">
+					</a>
+					<span class="titulo-rodape">HTML5 e CSS3</span>
+					<p>&nbsp;</p>
+					<p>
+						Este site foi desenvolvido para o projeto de programação web
+					</p>
+					<p>Gustavo Rocha - 2024 &copy;</p>
+				</div>
+
+
+				<div class="contato">
+					<h5>Contato</h5>
+					<dl>
+						<dt>Enderço:</dt>
+						<dd></dd>
+					</dl>
+					<dl>
+						<dt>E-mail:</dt>
+						<dd><a href="#">gustavobaista261@gmail.com</a></dd>
+					</dl>
+					<dl>
+						<dt>Fone:</dt>
+						<dd><a href="#">11 95725-1035</a></dd>
+					</dl>
+				</div>
+
+
+				<div class="contato">
+					<h5>Links</h5>
+					<ul>
+						<li><a href="#topo">Home</a></li>
+						<li><a href="#servicos">Serviços</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="limpa"></div>
+			<div class="assinatura">
+				<hr class="barra-assinatura">
+				<p>
+					Site desenvolvido por Gustavo Rocha &copy; 2024
+				</p>
+			</div>
+			
+		</div>
+	</footer>
+</body>
+</html>

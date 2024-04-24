@@ -1,0 +1,280 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+}
+
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+	padding: 5px;
+	position: fixed;
+	z-index: 100;
+	line-height: 40px;
+}
+header nav{
+	float: left;
+}
+header nav .logo{
+	top: 10px;
+	left: 20px;
+	position: absolute;
+}
+header nav ul{
+	list-style: none;
+	left: 100px;
+	position: absolute;
+}
+header nav ul li{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+header nav ul li a:link,
+header nav ul li a:visited{
+	width: 80px;
+	height: 30px;
+	display: block;
+	text-decoration: none;
+	color: #DDD;
+}
+header nav ul li a:hover,
+header nav ul li a:active{
+	color: #FFF;
+}
+
+.redes{
+	width: 30px;
+	height: 240px;
+	left: 10px;
+	top: 30%;
+	position: fixed;
+	z-index: 101;
+}
+.rede{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	transition: 0.4s ease-out;
+}
+.rede:hover{
+	cursor: pointer;
+	transform: translateX(-10px);
+	box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.6);
+}
+.rede#facebook{
+	background-color: #2372A3;
+}
+.rede#twitter{
+	background-color: #0084B4;
+}
+.rede#instagram{
+	background-color: #F90;
+}
+.rede#youtube{
+	background-color: #B00;
+}
+.rede .icone{
+	width: 30px;
+	padding: 10px;
+}
+
+.banner{
+	position: relative;
+	top: 50px;
+}
+.banner img{
+	max-width: 100%;
+}
+.banner .titulo-banner{
+	font-size: 40px;
+	position: absolute;
+	top: 300px;
+	right: 50px;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #333;
+}
+.banner .slogan-banner{
+	font-size: 20px;
+	position: absolute;
+	top: 350px;
+	right: 50px;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #333;
+}
+.banner .btn-banner{
+	background-color: #1E90FF;
+	position: absolute;
+	top: 400px;
+	right: 50px;
+	border-radius: 8px;
+	transition: 0.5s ease;
+}
+.banner .btn-banner:hover{
+	background-color: #387BB9;
+}
+.banner .btn-banner a:link,
+.banner .btn-banner a:visited{
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	transition: 0.5s ease;
+}
+.banner .btn-banner a:hover,
+.banner .btn-banner a:active{
+	color: #FFF;
+}
+
+
+.container{
+	width: 80%;
+	margin: 0px auto;
+}
+
+.titulo{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.row{
+	max-width: 100%;
+	text-align: center;
+}
+
+.servico{
+	width: 31%;
+	float: left;
+	margin: 0px 1%;
+}
+.servico img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border: 1px solid #58B2F3;
+	box-shadow: 0px 0px 60px #AAA;
+}
+.servico .titulo-servico{
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.servico .texto-servico{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.servico .btn-servico{
+	background-color: #777;
+	border-radius: 8px;
+	color: #FFF;
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+.servico .btn-servico:hover{
+	background-color: #333;
+}
+
+
+.limpa{
+	clear: both;
+}
+
+hr{
+	margin: 30px 0px;
+	border: 0px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+form{
+	width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea{
+	width: 95%;
+	padding: 10px;
+	margin: 5px 0px;
+	display: block;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}
+input[type=submit]{
+	background-color: #6BA0F1;
+	color: #FFF;
+	padding: 20px 30px;
+	border: none;
+	border-radius: 8px;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #4682B4;
+}
+
+footer{
+	background-color: #333;
+	color: #FFF;
+	padding: 20px 0px;
+}
+.whats{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	border-radius: 50%;
+	bottom: 20px;
+	right: 20px;
+	transition: 0.5s ease;
+}
+.whats:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.6);
+}
+.contato{
+	width: 31%;
+	float: left;
+	margin: 0px 1%;
+	text-align: left;
+}
+.contato .titulo-rodape{
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.contato h5{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.contato ul{
+	margin-left: 30px;
+}
+.contato a:link,
+.contato a:visited{
+	color: #6BA0F1;
+	text-decoration: none;
+}
+.contato a:hover,
+.contato a:active{
+	text-decoration: underline;
+}
+
+
+.assinatura{
+	text-align: center;
+}
+.assinatura .barra-assinatura{
+	margin: 30px 0px;
+	border: 0px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
